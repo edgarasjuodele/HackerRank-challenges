@@ -2,9 +2,10 @@
 #include <vector>
 using namespace std;
 
-void solve(vector<int> c, int n){
-	int count = 0, index = 0;
-	while(index < n-1){
+void solve(vector<int> c, int n)
+{
+     int count = 0, index = 0;
+     while(index < n-1){
            if(c[index+2] != 1){
                index += 2;
                count++;
