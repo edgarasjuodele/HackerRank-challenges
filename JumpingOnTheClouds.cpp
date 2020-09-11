@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-void solve(vector<int> c){
+void solve(vector<int> c, int n){
 	int count = 0, index = 0;
 	while(index < n-1){
            if(c[index+2] != 1){
@@ -24,6 +24,6 @@ int main ()
     for(int i = 0; i < n; i++){
         cin >> c[i];    
     }   
-    solve(c);
+    solve(c, n);
 }
 
